@@ -116,11 +116,14 @@
 /* Section Fully */
 #fully-div{
     width: 100%;
-    height: 90vh;
-    background-color: blanchedalmond;
+    height: 100vh;
     padding: 15px auto;
     margin: auto;
-
+}
+#fully-center{
+    width:100%;
+    height:100%;
+    position: relative;
 }
 
 #fully-h1{
@@ -132,23 +135,42 @@
 #fully-boxes{
     width:90%;
     height: 60%;
-    background-color: brown;
-    margin: auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   
     
 }
 .fully-box{
     width:30%;
-    background-color: azure;
-    height: 80%;
+    height: 60%;
     text-align: center;
-    padding: 40px 5px;
     border: solid 1px black;
     border-radius: 10px;
     position: relative;
+    float: left;
+    margin-top: 10px;
+    
+    padding: 0;
+
+}
+.fully-box-2{
+    margin: 10px 5% 0 5%;
+}
+.fully-box-content{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    padding: 20px 0px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
 
 }
 .fully-icon{
-    color: black;
+    color: palevioletred;
     font-size: 30px;
     margin-bottom: 25px;
 }
@@ -191,11 +213,7 @@
     opacity: 0.5;
     transition: 1s;
 }
-.hg{
-    background-color: black;
-    width:100%;
-    height: 1px;
-}
+
 li::after{
     content: "";
     display: block;
@@ -208,12 +226,9 @@ li::after{
 
 }
 li:hover::after{
-    content: "";
-    /* display: block;
-    background-color: blue; */
+   
     width:100%;
     height: 3px;
-    /* position: absolute; */
     transition: 1s;
 
 }
