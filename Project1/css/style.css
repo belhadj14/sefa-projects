@@ -144,7 +144,7 @@
 }
 .fully-box{
     width:30%;
-    height: 60%;
+    height: 70%;
     text-align: center;
     border: solid 1px black;
     border-radius: 10px;
@@ -232,3 +232,185 @@ li:hover::after{
     transition: 1s;
 
 }
+.featured-container{
+    background-color: yellow;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+  }
+.featured-parent{
+    background-color: rgb(139, 139, 126);
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+  }
+  .fw-title{
+    text-align: center;
+  }
+  .fw-span{
+    display: block;
+    margin: 10px auto;
+    background-color: blue;
+    width:10%;
+    height:2px;
+    
+  }
+  .fw-content{
+    background-color: #8d2727;
+    width:80%;
+    height:60%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+  }
+  .fw-content-1{
+    background-color: #a78c8c;
+    width:90%;
+    height:47%;
+    margin: 0 auto 1%;
+    
+   
+  }
+  .fw-content-2{
+    background-color: #38388a;
+    width:90%;
+    height:47%;
+    margin: 0 auto 1%;
+   }
+   .fw-elts{
+    background-color: bisque;
+    width:30%;
+    height:90%;
+    float: left;
+    margin-top: 1%;
+   }
+   .fw-elts-elt2{
+    margin-left:5%;
+    margin-right: 5%;
+   }
+   .fw-img{
+    width:100%;
+    height: 100%;
+   }
+   .offer-container{
+    background-color: #8d2727;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    }
+    .offer-parent{
+    background-color: #8c97a7;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+     width:90%;
+    height:80%; 
+    }
+    .offer-boxes{
+    background-color: #c5dd3f;
+    margin-bottom: 10px;
+    width:100%;
+    height: 50%;
+    margin-bottom: 10px auto;
+    position: relative;
+    }
+    .of2{
+    background-color: #611757;
+    margin-bottom: 10px;
+    width:100%;
+    
+    }
+    .offer-box{
+    background-color: #a78c8c;
+    width: 30%;
+    float: left;
+    /* margin-bottom: 5px ; */
+    height: 100%;
+    padding: 7px auto;
+  
+   
+    }
+    .offer-icon{
+    font-size: 30px;
+    display: block;
+    float: left;
+    height:100%;
+    width:10%;
+    background-color: aqua;
+    padding: 7px auto;
+    }
+    
+    .offer-box-2{
+    margin:0 5%;
+    }
+    .offer-h2{
+        text-transform: capitalize;
+        font-size: 30px;
+        
+    }
+    .offer-p{
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    /* Our team section */
+    .team-title{
+        text-align: center;
+        font-size: 40px;
+        text-transform: capitalize;
+        margin-top: 50px;
+    }
+    .team-parent{
+        width: 80%;
+        height: 100vh;
+        margin: 50px auto;
+
+        
+     
+    }
+    .team-item{
+        width: 30%;
+        background-color: #8c97a7; 
+       
+        float: left;
+        text-align: center;
+        padding: 14px 16px;;
+        
+    }
+    .team-item-2{
+        margin: auto 5%;
+    }
+    .team-img{
+        position: relative;
+        background-color: #c5dd3f;
+        
+    }
+    .team-img img{
+       width: 100%;
+       height:250px;
+       
+       
+        
+    }
+    .team-icons{
+        font-size: 30px;
+        color: blue;
+        position: absolute;
+        top:0;
+     
+        right: 0;
+        background-color: aqua;  
+    }
+    .team-icons i{
+        display: block; 
+        /* margin-left: auto; */
+    }
